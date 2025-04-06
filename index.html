@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Your Portfolio for ₹99</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid #f9c000;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 4s steps(45, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  90% { width: 35% }
+  100% { width: 0 }
+}
+
+@keyframes 
+blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f9c000; }
+}
+
+
+    body {
+      background: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: #111;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+    }
+    .hero {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .hero .price {
+      font-size: 3rem;
+      color: #f9c000;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .cta-button {
+      background: #f9c000;
+      color: #000;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .cta-button:hover {
+      background: #000;
+      color: #f9c000;
+    }
+    .features {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+      background: #fff;
+    }
+    .features h3 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .features ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .features li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+    }
+    .steps {
+      background: #f0f0f0;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .steps h3 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+    .steps p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+    footer {
+      background: #111;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    @media (min-width: 768px) {
+      .features {
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      .features ul {
+        text-align: left;
+      }
+    }
+
+
+
+
+
+
+
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(to right, #f9f9f9, #f0f0f0);
+  color: #222;
+  line-height: 1.6;
+  animation: fadeInBody 1s ease-in;
+}
+
+@keyframes fadeInBody {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+header {
+  background: #111;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  animation: slideDown 1s ease-in-out;
+}
+
+@keyframes slideDown {
+  0% { transform: translateY(-100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+.hero {
+  background: linear-gradient(135deg, #111, #222);
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.hero .price {
+  font-size: 4rem;
+  color: #f9c000;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+.cta-button {
+  background: #f9c000;
+  color: #000;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.cta-button:hover {
+  background: #000;
+  color: #f9c000;
+  transform: scale(1.05);
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  border-right: 2px solid #f9c000;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  animation: typing 4s steps(45, end) infinite, blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  90% { width: 35% }
+  100% { width: 0 }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #f9c000; }
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  background: #fff;
+  animation: fadeInUp 1.3s ease-in;
+}
+
+.features h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.features li {
+  margin: 12px 0;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.features li:hover {
+  transform: translateX(10px);
+  color: #f9c000;
+}
+
+.steps {
+  background: #f0f0f0;
+  padding: 50px 20px;
+  text-align: center;
+  animation: fadeInUp 1.4s ease-in;
+}
+
+.steps h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.steps p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #111;
+  color: #fff;
+  padding: 25px;
+  text-align: center;
+  animation: fadeInUp 1.5s ease-in;
+}
+
+@media (min-width: 768px) {
+  .features {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .features ul {
+    text-align: left;
+  }
+}
+
+@keyframes fadeInUp {
+  0% { opacity: 0; transform: translateY(50px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+
+
+
+
+:root {
+  --primary-color: #f9c000;
+  --dark-bg: #111;
+  --light-bg: #f9f9f9;
+  --accent-color: #00c6ff;
+  --text-glow: #ffffffaa;
+}
+
+body {
+  background: linear-gradient(135deg, #f9f9f9, #e6e6e6);
+}
+
+header {
+  background: linear-gradient(to right, var(--dark-bg), #333);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+}
+
+.price {
+  background: linear-gradient(to right, #f9c000, #ffde59);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #f9c000, #ffde59);
+  box-shadow: 0 0 20px rgba(249, 192, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 30px rgba(255, 222, 89, 0.7);
+  background: #000;
+  color: var(--primary-color);
+}
+
+.features li::before {
+  content: '🚀';
+  margin-right: 10px;
+  color: var(--accent-color);
+}
+
+.steps {
+  background: linear-gradient(to bottom, #fff, #ddd);
+}
+
+footer {
+  background: linear-gradient(to right, #111, #222);
+  color: var(--text-glow);
+}
+
+
+
+
+
+.contact {
+  background: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  background: #f9c000;
+  color: #000;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.contact-form button:hover {
+  background: #000;
+  color: #f9c000;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>MELE</h1>
+  </header>
+  
+  <section class="hero">
+    <h2>We Build Stunning Portfolios</h2>
+    <p>Only at</p>
+    <div class="price">₹99</div>
+    <p class="typewriter">Get your custom-made online portfolio today!</p>
+  </br>
+    <button class="cta-button" onclick="window.location.href='https://wa.me/8921860934'">Order via WhatsApp</button>
+  </section>
+
+  <section class="features">
+    <h3>Why Choose Us?</h3>
+    <ul>
+      <li>✔ Fully customized design</li>
+      <li>✔ Mobile & desktop responsive</li>
+      <li>✔ Delivered in 2-3 days</li>
+      <li>✔ Hosted online with your name</li>
+      <li>✔ Support via WhatsApp</li>
+    </ul>
+  </section>
+
+  <section class="steps">
+    <h3>How It Works</h3>
+    <p>1️⃣ Contact us on WhatsApp</p>
+    <p>2️⃣ Share your details and photos</p>
+    <p>3️⃣ Get your portfolio in 2-3 days</p>
+  </section>
+
+  <section class="contact">
+    <h3>Connect with Us</h3>
+    <div class="social-icons">
+      <a href="https://wa.me/8921860934" target="_blank" title="WhatsApp">
+        <img src="https://img.icons8.com/fluency/48/000000/whatsapp.png" alt="WhatsApp" />
+      </a>
+      <a href="https://instagram.com/ceko_habibi" target="_blank" title="Instagram">
+        <img src="https://img.icons8.com/fluency/48/000000/instagram-new.png" alt="Instagram" />
+      </a>
+      <a href="mailto:melegroup@gmail.com" title="Email">
+        <img src="https://img.icons8.com/fluency/48/000000/gmail.png" alt="Email" />
+      </a>
+    </div>
+  
+    <form class="contact-form" action="https://formspree.io/f/mnqezwrd" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <button type="submit">Send Details</button>
+    </form>
+  </section>
+  
+
+  <footer>
+    <p>Contact: melegroup@gmail.com | WhatsApp: +91 9345868358</p>
+    <p>&copy; 2025 Mele Group.</p>
+  </footer>
+</body>
+</html>
